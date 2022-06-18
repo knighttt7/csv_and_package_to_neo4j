@@ -150,7 +150,7 @@ def insert_product_to_node(cve_read,csv_read):#卡在了945，感觉差不多够
 
 if __name__=="__main__":
     # package_name_list = []
-    graph=Graph('http://localhost:7474/',user='neo4j',password='root')
+    graph=Graph('http://localhost:7474/',user='#your username#',password='#your password#')
     df_package = pd.read_csv('./package.csv')
     df_cve = pd.read_csv('./cve.csv')
     # insert_cve(df_cve)
